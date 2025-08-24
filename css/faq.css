@@ -1,0 +1,26 @@
+
+.tables{
+    justify-content: center;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat( auto-fill,minmax(200px,350px) ) ;
+
+}
+.tab{
+    height: 400px;
+    min-height: 400px;
+    background-color: lightgrey;
+    margin: 20px;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 25px ;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.tab:hover{
+    height: max-content;
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}

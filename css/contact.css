@@ -1,0 +1,14 @@
+.soushero{
+    background-image: url(../image/contactt.jpg);
+    min-height: 250px;
+    background-size: cover;
+}
+.soushero-txt{
+    color: white;
+    background-color: rgba(46, 46, 46, 0.9);
+    min-height: 250px;
+    padding: 3% 10%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
