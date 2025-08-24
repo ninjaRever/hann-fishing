@@ -32,7 +32,7 @@ body {
   text-decoration: none ;
   color: #ffffff;
 }
-.herolinck a:hover , .nav-links p:hover {
+.herolinck a:hover , .nav-links h4:hover {
   text-decoration:underline 3px ;
   color: rgb(100, 100, 100);
 }
